@@ -474,7 +474,7 @@ function Movie() {
           <div className="mx-10">
             <h2 className="text-white text-[36px] lg:text-[68px] font-jockey ">Cast & Crew</h2>
           </div>
-          <div className="mx-10 grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 justify-items-center text-center place-items-center">
+          <div className="mx-10 grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 justify-center text-center place-items-center">
             {movCC.slice(0, 12).map((cc) => (
               <div className='w-[300px] sm:w-[200px] md:w-[300px] xl:w-[340px] content-center bg-[#313131] h-[200px] m-5 rounded-lg justify-center text-center '>
                 <div className='w-full h-full flex flex-col justify-center items-center'>
