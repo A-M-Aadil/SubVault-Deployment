@@ -1,0 +1,60 @@
+*{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.font-stroke{
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width:2px;
+    opacity: 0.5;
+}
+
+.arrow {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.arrow span {
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(315deg);
+    margin: -27px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.6s;
+}
+
+.zi{
+    z-index: 1;
+}
+
+.zi50{
+    z-index: 50;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(315deg) translate(-30px, -30px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(315deg) translate(30px, 30px);
+    }
+}
