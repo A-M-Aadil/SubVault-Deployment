@@ -11,14 +11,14 @@ function Testimonoals() {
                 {/*<h2 className="text-white pl-10 text-[150px] font-jockey font-stroke tracking-[20px]">TESTIMONIALS</h2>*/}
             </div>
             <div className="flex text-center justify-center m-10">
-                <h2 className="text-white z-10 text-[48px] md:text-[68px]  lg:text-[128px] font-jockey ">↗️TESTIMONIALS↘️</h2>
+                <h2 className="text-white z-10 text-[36px] md:text-[68px]  lg:text-[128px] font-jockey ">↗️TESTIMONIALS↘️</h2>
             </div>
 
             
 
                 <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-                    <div className="grid lg:grid-cols-3 justify-items-center text-center place-items-center">
-                        <div  className="w-[350px] content-center bg-[#313131]  m-5 rounded-lg justify-center text-center justify-items-center">
+                    <div className="grid lg:grid-cols-3 justify-center text-center place-items-center">
+                        <div  className="w-[350px] content-center bg-[#313131] p-5 lg:p-0 rounded-lg justify-center text-center">
                             <div className="w-full flex p-[30px] py-2">
                                 <div className="w-[80px] h-[80px] bg-[#FF013E] flex items-center justify-center rounded-full"><FontAwesomeIcon icon={faUser} className='text-white text-[34px]' /></div>
                                 <p className="text-white text-[36px] p-[15px] font-jockey ">Priya R.</p>
@@ -36,7 +36,7 @@ function Testimonoals() {
                                 It's a fantastic resource!</p>
                         </div>
 
-                        <div  className="w-[350px] content-center bg-[#313131]  m-5 rounded-lg justify-center text-center justify-items-center">
+                        <div  className="w-[350px] content-center bg-[#313131]  m-5 p-5 lg:p-0 rounded-lg justify-center text-center">
                             <div className="w-full flex p-[30px] py-2">
                             <div className="w-[80px] h-[80px] bg-[#FF013E] flex items-center justify-center rounded-full"><FontAwesomeIcon icon={faUser} className='text-white text-[34px]' /></div>
                                 <p className="text-white text-[36px] p-[15px] font-jockey ">Rajesh S.</p>
@@ -51,7 +51,7 @@ function Testimonoals() {
                                 all movie enthusiasts!</p>
                         </div>
 
-                        <div  className="w-[350px] content-center bg-[#313131]  m-5 rounded-lg justify-center text-center justify-items-center">
+                        <div  className="w-[350px] content-center bg-[#313131]  m-5 p-5 lg:p-0 rounded-lg justify-center text-center ">
                             <div className="w-full flex p-[30px] py-2">
                             <div className="w-[80px] h-[80px] bg-[#FF013E] flex items-center justify-center rounded-full"><FontAwesomeIcon icon={faUser} className='text-white text-[34px]' /></div>
                                 <p className="text-white text-[36px] p-[15px] font-jockey ">Yohan M.</p>

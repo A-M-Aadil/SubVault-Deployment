@@ -194,7 +194,7 @@ function UserHome() {
 
         {/* 🔘Movie Categories 🔘 */}
         <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-          <div className="grid xl:grid-cols-4 lg:grid-cols-3 justify-items-center text-center place-items-center">
+          <div className="grid xl:grid-cols-4 lg:grid-cols-3 justify-center text-center place-items-center">
             {movCategories.map((category) => (
               <div className="w-[350px] lg:w-[280px] 2xl:w-[350px] content-center bg-[#313131] h-[200px] m-5 rounded-lg justify-center text-center justify-items-center">
                 <div className="w-full flex justify-center py-2">
@@ -231,7 +231,7 @@ function UserHome() {
 
         {/* 🔘Movie Filters🔘 */}
         <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-          <div className="grid xl:grid-cols-4 justify-items-center text-center  place-items-center">
+          <div className="grid xl:grid-cols-4 justify-center text-center  place-items-center">
 
             {/* 🔘 Genre Filters 🔘 */}
             <div className='w-[380px] xl:w-[250px] 2xl:w-[350px] xl:mx-2 m-3 xl:my-0'>
@@ -277,7 +277,7 @@ function UserHome() {
         {searchFun ?
           <>
             <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-              <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-center text-center place-items-center ">
+              <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center text-center place-items-center ">
                 {movList.map((category) => (
 
 
@@ -299,7 +299,7 @@ function UserHome() {
             {/* 🔘 Display Filtered Movies 🔘 */}
             {filApply ?
               <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-                <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-center text-center place-items-center">
+                <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center text-center place-items-center">
                   {movList.map((category) => (
 
 
@@ -318,7 +318,7 @@ function UserHome() {
               <>
                 {/* 🔘 Display default Movies 🔘 */}
                 <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-                  <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-center text-center place-items-center">
+                  <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center text-center place-items-center">
                     {movies.map((category) => (
 
 

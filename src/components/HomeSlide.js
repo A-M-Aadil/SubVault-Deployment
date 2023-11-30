@@ -37,7 +37,7 @@ function Slide({slides}) {
 
             <div className="z-20 w-full h-full absolute flex top-2 left-[-150px]">
                 <div className="flex justify-start items-center rotate-[-90deg]">
-                    <h2 className="text-white text-[60px] md:text-[90px] font-jockey tracking-[10px]">TRENDING NOW</h2>
+                    <h2 className="text-white text-[46px] md:text-[90px] font-jockey tracking-[10px]">TRENDING NOW</h2>
                 </div>
             </div>
             

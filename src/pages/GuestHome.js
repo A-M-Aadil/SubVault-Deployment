@@ -180,7 +180,7 @@ function GuestHome () {
 
               {/* 🔘Movie Filters🔘 */}
               <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-              <div className="grid xl:grid-cols-4 justify-items-center text-center  place-items-center">
+              <div className="grid xl:grid-cols-4 justify-center text-center  place-items-center">
 
                 {/* 🔘 Genre Filters 🔘 */}
                 <div className='w-[380px] xl:w-[250px] 2xl:w-[350px] xl:mx-2 m-3 xl:my-0'>
@@ -226,7 +226,7 @@ function GuestHome () {
               {searchFun ?
               <>
                 <div className="top-0 p-10 w-full  mx-auto py-10 px-10 ">
-                  <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-center text-center place-items-center ">
+                  <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center text-center place-items-center ">
                   {movList.map((category)=>(
                     <div  className="w-[350px] h-[500px] content-center bg-[#313131] m-5 rounded-lg justify-center text-center justify-items-center">
                       <Link to={`/movie/${category.id}`} target="_blank">
@@ -246,7 +246,7 @@ function GuestHome () {
               { filApply ? 
               <>
                 <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-                  <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-center text-center place-items-center">
+                  <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center text-center place-items-center">
                   {movList.map((category)=>(
                       
                     <div  className="w-[350px] content-center bg-[#313131]  m-5 rounded-lg justify-center text-center justify-items-center">
@@ -265,7 +265,7 @@ function GuestHome () {
                 <>
                   {/* 🔘 Display default Movies 🔘 */} 
                   <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-                    <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-center text-center place-items-center">
+                    <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center text-center place-items-center">
                     {movies.map((category)=>(
                         
   

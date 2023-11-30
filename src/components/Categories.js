@@ -30,7 +30,7 @@ function Categories() {
 
         {/* 🔘Mapping the categories using stored state variable *MovCat* 🔘 */}
         <div className="top-0 p-10 w-full  mx-auto py-10 px-10">
-          <div className="grid xl:grid-cols-4 lg:grid-cols-3 justify-items-center text-center place-items-center">
+          <div className="grid xl:grid-cols-4 lg:grid-cols-3 justify-center text-center place-items-center">
             {movCat.slice(0, 8).map((category) => (
               <div className="w-[350px] lg:w-[280px] content-center bg-[#313131] h-[200px] m-5 rounded-lg justify-center text-center justify-items-center">
                 <div className="w-full flex justify-center py-2">

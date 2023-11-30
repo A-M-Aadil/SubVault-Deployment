@@ -214,7 +214,7 @@ function SignUp() {
           <div className='z-10 lg:w-[80%] 2xl:w-[60%] w-[80%] lg:h-[70%] lg:flex'>
             <div className='bg-white/30 transparent w-full h-full p-5'>
 
-              <h2 className='text-white text-[32px] font-barlow '>Sign Up</h2>
+              <h2 className='text-white text-[32px] font-barlow mt-[50px] lg:mt-0'>Sign Up</h2>
 
               <div className=' w-full' onSubmit={submitHandler}>
                 <form className='grid mt-10 w-full'>
