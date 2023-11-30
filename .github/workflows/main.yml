@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2.3.2
       - name: Install Dependencies
-        run: npm install      
+        run: npm config set legacy-peer-deps true && npm install && npm i react-facebook-login     
       - name: Build
         env:
           CI: false        
