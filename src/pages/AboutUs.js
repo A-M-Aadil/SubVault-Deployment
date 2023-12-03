@@ -121,7 +121,7 @@ function AboutUs(){
                             <div className="flex justify-center">
                             <div className="w-[175px] h-[175px] border-4 flex justify-center items-center border-sky-500 rounded-full">
                                 <div className="w-[150px] h-[150px] bg-white rounded-full">
-                                    <img src='https://media.licdn.com/dms/image/D5635AQHzMixo_eebDg/profile-framedphoto-shrink_800_800/0/1676266744565?e=1701090000&v=beta&t=jgXwSMY9LZfP8Wg8G8Lq6slcKxuOnAoDXH7Rxqa4joE'/>
+                                    <img src='https://i.postimg.cc/DZmSwHYv/1676266744565.jpg'/>
                                 </div>
                             </div>
                                 
@@ -131,7 +131,7 @@ function AboutUs(){
                             <div className="flex justify-center mt-3">
                                 <a href="https://www.linkedin.com/in/sudeepa-wijerathna-67056617b/"><div className="w-[50px] h-[50px] bg-white rounded-full flex justify-center items-center text-[20px] mx-2 cursor-pointer"><FontAwesomeIcon icon={faLinkedinIn} /></div></a>
                                 <a href="https://twitter.com"><div className="w-[50px] h-[50px] bg-white rounded-full flex justify-center items-center text-[20px] mx-2 cursor-pointer"><FontAwesomeIcon icon={faTwitter} /></div></a>
-                                <a href="s.wijerathna.14d@gmail.com"><div className="w-[50px] h-[50px] bg-white rounded-full flex justify-center items-center text-[20px] mx-2 cursor-pointer"><FontAwesomeIcon icon={faEnvelope} /></div></a>
+                                <a href="mailto:s.wijerathna.14d@gmail.com"><div className="w-[50px] h-[50px] bg-white rounded-full flex justify-center items-center text-[20px] mx-2 cursor-pointer"><FontAwesomeIcon icon={faEnvelope} /></div></a>
                             </div>
                             
                         </div>
